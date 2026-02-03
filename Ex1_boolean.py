@@ -30,7 +30,11 @@ print("-------------------------------------------\n"
 #    (wallet is strictly greater than price), and False otherwise. Print this variable.
 
 # Write your code below:
-
+wallet_balance = "56"
+item_price = "65"
+print("I can afford: (wallet_balance > item_price)")
+change_available = ("wallet_balance > item_price")
+print("change availble: (change_available)")
 
 # -------------------------------------------
 # Task 2: Security Check (Strings & Inequality)
@@ -46,7 +50,10 @@ print("\n-------------------------------------------\n"
 # 4. Print a Boolean check using '!=' (not equal) to confirm they are indeed different strings.
 
 # Write your code below:
-
+username = "admin"
+input_name = "Admin"
+print(username == input_name)
+print(username != input_name)
 
 # -------------------------------------------
 # Task 3: The Bouncer (Input & Types)
@@ -63,7 +70,9 @@ print("\n-------------------------------------------\n"
 # 3. Print: "Access granted: [True/False]" using your variable.
 
 # Write your code below:
-
+age = int(input("Enter your age: "))
+can_enter = age>= 18 
+print("Access granted:", can_enter)
 
 # -------------------------------------------
 # SAVING YOUR WORK
@@ -97,7 +106,9 @@ print("\n-------------------------------------------\n"
 # Hint: You can use: (x > 0) and (x <= 10)
 
 # Write your code below:
-
+num = int(input("Enter a number between 1 and 10:"))
+is_valid = (num>0) and (num <= 10)
+print("Valid number:", is_valid)
 
 # Extension 2: The "Either/Or" (The 'or' Operator)
 # -------------------------------------------
@@ -115,7 +126,9 @@ print("\n-------------------------------------------\n"
 # Correct: if colour == "Red" or colour == "Blue"
 
 # Write your code below:
-
+colour = input("what is your favourite colour?")
+is_valid = (colour == "Red") or (colour == "Blue")
+print("Is it Red or Blue:", is_valid)
 
 # Extension 3: Even Number Detector (Modulus %)
 # -------------------------------------------
@@ -131,7 +144,9 @@ print("\n-------------------------------------------\n"
 # Hint: 5 % 2 gives 1 (Odd). 4 % 2 gives 0 (Even).
 
 # Write your code below:
-
+num = int(input("Enter a number:"))
+is_even = (num % 2 == 0)
+print("Is the number even:", is_even)
 
 # -------------------------------------------
 # SAVING YOUR WORK
@@ -175,7 +190,9 @@ print("\n-------------------------------------------\n"
 # - Use parenthesis ( ) to group the "OR" part together.
 
 # Write your code below:
-
+year = int(input("Enter a year:"))
+is_leap_year = (year % 4 == 0) and ((year % 100 != 0) or (year % 400 == 0))
+print("Is leap year:", is_leap_year)
 
 # -------------------------------------------
 # SAVING YOUR WORK
