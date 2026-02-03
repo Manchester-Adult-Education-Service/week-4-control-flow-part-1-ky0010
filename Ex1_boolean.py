@@ -30,7 +30,11 @@ print("-------------------------------------------\n"
 #    (wallet is strictly greater than price), and False otherwise. Print this variable.
 
 # Write your code below:
-
+wallet_balance = "56"
+item_price = "65"
+print("I can afford: (wallet_balance > item_price)")
+change_available = ("wallet_balance > item_price")
+print("change availble: (change_available)")
 
 # -------------------------------------------
 # Task 2: Security Check (Strings & Inequality)
@@ -46,7 +50,10 @@ print("\n-------------------------------------------\n"
 # 4. Print a Boolean check using '!=' (not equal) to confirm they are indeed different strings.
 
 # Write your code below:
-
+username = "admin"
+input_name = "Admin"
+print(username == input_name)
+print(username != input_name)
 
 # -------------------------------------------
 # Task 3: The Bouncer (Input & Types)
@@ -63,7 +70,9 @@ print("\n-------------------------------------------\n"
 # 3. Print: "Access granted: [True/False]" using your variable.
 
 # Write your code below:
-
+age = int(input("Enter your age: "))
+can_enter = age>= 18 
+print("Access granted:", can_enter)
 
 # -------------------------------------------
 # SAVING YOUR WORK
